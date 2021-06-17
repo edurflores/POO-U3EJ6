@@ -1,7 +1,3 @@
-from claseVehiculo import Vehiculo
-from claseVehiculoNuevo import VehiculoNuevo
-from claseVehiculoUsado import VehiculoUsado
-
 class Nodo:
     __vehiculo = None
     __siguiente = None
