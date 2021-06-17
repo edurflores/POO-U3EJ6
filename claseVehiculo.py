@@ -26,3 +26,14 @@ class Vehiculo:
         pass
     def getKilometraje(self):
         pass
+    def setPrecioBase(self,precionuevo):
+        if type(precionuevo) is float:
+            self.__precioBase = precionuevo
+            print('Se modifico el precio base.')
+        else:
+            print('Error. No se modifico el precio base.')
+    def CalculaImporteVenta(self):
+        pass
+
+    def MuestraDatos(self):
+        pass
